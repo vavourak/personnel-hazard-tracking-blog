@@ -1,11 +1,7 @@
-## My Project
+## Industrial Personnel & Hazard Tracking with Amazon Location Services
 
-TODO: Fill this README out!
+Link to the AWS Blog: (link)
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
 
 ## Security
 

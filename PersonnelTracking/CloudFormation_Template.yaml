@@ -592,8 +592,8 @@ Resources:
         Type: "AWS::Amplify::App"
         Properties:
             Name: "Device_Map_App"
-            Repository: "https://github.com/costasvav/Device_Tracking_AWS"
-            AccessToken: "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"
+            Repository: "https://github.com/aws-samples/personnel-hazard-tracking-blog"
+            AccessToken: "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"
             EnableBranchAutoDeletion: false
             BuildSpec: |
                 version: 1
@@ -611,7 +611,7 @@ Resources:
                     paths: []
             CustomRules: 
               - Source: "/<*>"
-                Target: "/index.html"
+                Target: "assets/index.html"
                 Status: "404-200"
             IAMServiceRole: !GetAtt AmplifyAppIAMRole.Arn
 

@@ -592,8 +592,8 @@ Resources:
         Type: "AWS::Amplify::App"
         Properties:
             Name: "Device_Map_App"
-            Repository: "https://github.com/aws-samples/personnel-hazard-tracking-blog"
-            AccessToken: "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"
+            Repository: "https://github.com/vavourak/personnel-hazard-tracking-blog"
+            AccessToken: "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"
             EnableBranchAutoDeletion: false
             BuildSpec: |
                 version: 1
